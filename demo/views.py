@@ -11,3 +11,11 @@ def begin(request):
     except post.DoesNotExist:
         raise Http404("post does not exist")
     return render(request, 'base/Blazen/d29u17ylf1ylz9.cloudfront.net/blazen-v1.html', {'posts': p})
+
+
+def postDetail(request, id):
+    try:
+        p = post.objects.get(id=id)
+    except post.DoesNotExist:
+        raise Http404("post does not exist")
+    return render(request, 'base/Blazen/d29u17ylf1ylz9.cloudfront.net/blazen-v1.html', {'post': p})
