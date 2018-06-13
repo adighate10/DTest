@@ -1,0 +1,432 @@
+{% load static from staticfiles %}
+<!doctype html>
+<html class="no-js" lang="en">
+
+
+<!-- Mirrored from d29u17ylf1ylz9.cloudfront.net/blazen-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Jun 2018 12:50:33 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Blazen - Event and Exhibition Bootstrap4 Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, follow"/>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'p2/img/favicon.ico' %}">
+    <!-- All CSS Files -->
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="{% static 'maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' %}">
+    <!-- Icon Font -->
+    <link rel="stylesheet" href="{% static 'p2/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'p2/css/et-line.css' %}">
+    <!-- Plugins css file -->
+    <link rel="stylesheet" href="{% static 'p2/css/plugins.css' %}">
+    <!-- Theme main style -->
+    <link rel="stylesheet" href="{% static 'p2/style.css' %}">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="{% static 'p2/css/responsive.css' %}">
+    <!-- Modernizr JS -->
+    <script src="{% static 'p2/js/vendor/modernizr-2.8.3.min.js' %}"></script>
+
+
+    <style type="text/css">
+        .buy-btn:hover {
+            background-color: #de2532;
+            border-color: #de2532;
+        }
+
+        .header-section .buy-btn {
+            border-color: #de2532;
+            background-color: #de2532;
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        .header-section .buy-btn:hover {
+            border-color: #de2532;
+            background-color: transparent;
+            color: #de2532;
+        }
+
+        .stick.header-section .buy-btn {
+            border-color: #de2532;
+            background-color: #de2532;
+            color: #ffffff;
+        }
+
+        .stick.header-section .buy-btn:hover {
+            border-color: #de2532;
+            background-color: transparent;
+            color: #de2532;
+        }
+
+        .demo-item .image {
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+        }
+
+        .demo-item:hover .image {
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .demo-item .image::after {
+            display: none;
+        }
+
+        .demo-item .image i {
+            display: none;
+        }
+
+        .stick .buy-btn {
+            border: 2px solid #de2532;
+            color: #de2532;
+        }
+
+        .single-feature .icon {
+            color: #de2532;
+            width: 50px;
+        }
+
+        .single-feature .content h4 {
+            line-height: 1;
+        }
+
+        .footer-section {
+            background-color: #444;
+        }
+
+        .stick .buy-btn:hover {
+            color: #fff;
+        }
+
+        .demo-item .title a:hover {
+            color: #de2532;
+        }
+
+        .demo-item .title {
+            text-transform: capitalize;
+            font-weight: 500;
+        }
+
+        .footer-section .buy-btn:hover {
+            color: #de2532;
+        }
+
+        .hero-content h1 {
+            text-transform: capitalize;
+        }
+
+        .logo {
+            padding: 6.5px 0;
+        }
+
+        .logo a,
+        .stick .logo a {
+            width: auto;
+        }
+
+        .logo a .sticky-logo {
+            width: auto;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .footer-section .buy-btn {
+                float: left !important;
+            }
+        }
+
+        @media only screen and (max-width: 479px) {
+            .logo a,
+            .stick .logo a {
+                width: 140px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Start Header Section -->
+    <div class="header-section section sticker">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <!-- Logo -->
+                <div class="logo float-left">
+                    <a href="blazen.html">
+                        <img src="{% static 'p2/img/blazen/logo.png' %}" alt="blazen">
+                        <img src="{% static 'p2/img/blazen/logo-dark.png'%}" alt="blazen" class="sticky-logo ">
+                    </a>
+                </div>
+                <!-- Logo -->
+                <div class="float-right">
+                    <a class="buy-btn" href="#">buy Blazen</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Section End -->
+
+    <!-- Start Hero Section SHRINKING BG IMAGE-->
+    <div class="hero-section section overlay" style="background-image: url({% static 'p2/img/blazen/hero-bg.jpg'%})">
+        <div class="container">
+            <div class="row">
+
+                <div class="hero-content text-center col-12">
+                    <h1>
+                        <strong>Blazen</strong>Event and Exhibition Bootstrap4 Template</h1>
+                    <p>A perfect multi-concept template for event or event management websites. It comes with nice and clean design.</p>
+                    <a class="buy-btn" href="#demo">View Demo</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section End -->
+
+    <!-- Start Demo Section IMAGES DIV todo we need to work here-->
+    <div id="demo" class="demo-section section pt-120 pb-70">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                {% for post in posts %}
+                <div class="col-lg-4 col-md-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="blazen-v1/index.html" class="image" target="_blank">
+                            <img src="{{ post.imageurl }}" alt="demo image">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="blazen-v1/index.html" target="_blank">{{ post.title }}</a>
+                        </h4>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+    <!-- Demo Section End -->
+
+    <!-- Start Hero Section BLAZEN FEATURES-->
+    <div class="feature-section section bg-gray pt-150 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="section-title col-12 mb-70">
+                    <h1>Blazen Feature</h1>
+                </div>
+
+                <div class="single-feature col-lg-4 col-md-6 col-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-mobile"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Responsive Design</h4>
+                        <p>Blazen is supper responsive & work perfectly in all devices.</p>
+                    </div>
+                </div>
+                <div class="single-feature col-lg-4 col-md-6 col-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-profile-male"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>User Friendly</h4>
+                        <p>Blazen easy to use for any technical & nontechnical People.</p>
+                    </div>
+                </div>
+                <div class="single-feature col-lg-4 col-md-6 col-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-beaker"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Creative Design</h4>
+                        <p>It's comes with creative & smart design layout.</p>
+                    </div>
+                </div>
+                <div class="single-feature col-lg-4 col-md-6 col-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-puzzle"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Icon Font</h4>
+                        <p>It's comes with most popular FontAwesome & Pe icon 7 stroke font.</p>
+                    </div>
+                </div>
+                <div class="single-feature col-lg-4 col-md-6 col-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-genius"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Google Font</h4>
+                        <p>600 Google Fonts. You can change font for all elements easily.</p>
+                    </div>
+                </div>
+                <div class="single-feature col-lg-4 col-md-6 col-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-envelope"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Ajax Contact Form</h4>
+                        <p>It comes with ajax contact form which makes messaging much more quicker.</p>
+                    </div>
+                </div>
+                <div class="single-feature col-lg-4 col-md-6 col-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-search"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Clean Markup</h4>
+                        <p>We developed it followed by W3C Markup.</p>
+                    </div>
+                </div>
+                <div class="single-feature col-lg-4 col-md-6 col-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-upload"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Free Updates</h4>
+                        <p>Purchase once & get life-time free updates.</p>
+                    </div>
+                </div>
+                <div class="single-feature col-lg-4 col-md-6 col-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-megaphone"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Real Support</h4>
+                        <p>We provide 7 days a week one by one real support.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section End -->
+
+
+    <!-- Start Demo Section YOU MAY ALSO LIKE OUR OTHER TEMPLATE-->
+    {% comment %}<div class="demo-section also-like section pt-120 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="section-title col-12 mb-70">
+                    <h1>You May Also Like our Another HTML</h1>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="https://themeforest.net/item/eventpro-events-and-conference-html-template/20939761?ref=AslamHasib" class="image" target="_blank">
+                            <img src="../s3.envato.com/files/236538266/preview-html.__large_preview.png" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="https://themeforest.net/item/eventpro-events-and-conference-html-template/20939761?ref=AslamHasib"
+                                target="_blank">Eventpro - Events and Conference HTML Template</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="https://themeforest.net/item/truemart-ecommerce-bootstrap-template/21865869?ref=AslamHasib" class="image" target="_blank">
+                            <img src="../s3.envato.com/files/246110296/01_truemart-preview_image.__large_preview.png" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="https://themeforest.net/item/truemart-ecommerce-bootstrap-template/21865869?ref=AslamHasib" target="_blank">Truemart - eCommerce Bootstrap Template</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="https://themeforest.net/item/the-politicn-political-html-template/19738772?ref=AslamHasib" class="image" target="_blank">
+                            <img src="../s3.envato.com/files/224050639/preview.__large_preview.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="https://themeforest.net/item/the-politicn-political-html-template/19738772?ref=AslamHasib"
+                                target="_blank">The Politicn – Political HTML Template</a>
+                        </h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>{% endcomment %}
+    <!-- Demo Section End -->
+
+    <!-- Start Demo Section  YOU MAY ALSO LIKE OUR WORD PRESS TEMPLATE-->
+    {% comment %}<div class="demo-section also-like bg-gray section pt-120 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="section-title col-12 mb-70">
+                    <h1>You May Also Like our Another wordpress</h1>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="https://themeforest.net/item/politic-political-wordpress-theme/19378107?ref=AslamHasib" class="image" target="_blank">
+                            <img src="../s3.envato.com/files/220520052/privew-image.__large_preview.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="https://themeforest.net/item/politic-political-wordpress-theme/19378107?ref=AslamHasib"
+                                target="_blank">Politic – Political WordPress Theme</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="https://themeforest.net/item/bebsha-multipurpose-wordpress-theme/21146809?ref=AslamHasib" class="image" target="_blank">
+                            <img src="../s3.envato.com/files/240726505/preview.__large_preview.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="https://themeforest.net/item/bebsha-multipurpose-wordpress-theme/21146809?ref=AslamHasib" target="_blank">Bebsha - Multipurpose WordPress Theme</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="https://themeforest.net/item/rong-multipurpose-creative-wordpress-theme/20506636?ref=AslamHasib" class="image" target="_blank">
+                            <img src="../s3.envato.com/files/232081546/rong-preview.__large_preview.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="https://themeforest.net/item/rong-multipurpose-creative-wordpress-theme/20506636?ref=AslamHasib" target="_blank">Rong - MultiPurpose WordPress Theme</a>
+                        </h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>{% endcomment %}
+    <!-- Demo Section End -->
+
+
+    <div class="footer-section section pt-65 pb-50 overlay" style="background-image: url('../../../../assets/p2/img/blazen/hero-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Make your website come to life quickly.</h1>
+                    <a class="buy-btn float-right" href="#">buy Blazen</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Placed JS at the end of the document so the pages load faster -->
+    <!-- jQuery latest version -->
+    <script src="{% static 'p2/js/vendor/jquery-3.1.1.min.js' %}"></script>
+    <!-- Bootstrap js -->
+    <script src="{% static 'cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' %}"></script>
+    <script src="{% static 'maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' %}"></script>
+    <!-- Plugins js -->
+    <script src="{% static 'p2/js/plugins.js' %}"></script>
+    <!-- Ajax Mail js -->
+    <script src="{% static 'p2/js/ajax-mail.js' %}"></script>
+    <!-- Main js -->
+    <script src="{% static 'p2/js/main.js' %}"></script>
+
+</body>
+
+
+<!-- Mirrored from d29u17ylf1ylz9.cloudfront.net/blazen-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Jun 2018 12:50:52 GMT -->
+</html>

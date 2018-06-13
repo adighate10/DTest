@@ -1,0 +1,43 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 11 Jun 2018 18:20:32 at https://d29u17ylf1ylz9.cloudfront.net/blazen-v1.html# +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://d29u17ylf1ylz9.cloudfront.net/blazen-v1.html# -O1 "G:\Sanket_project\bl\Blazen" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:20:59	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen.html (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1.html)
+18:22:16	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/event-details.html (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/index.html)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-image-8.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-image-9.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-image-10.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-image-11.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-image-12.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-image-13.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-image-14.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-image-15.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-image-16.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-image-17.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-image-18.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-image-19.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-image-20.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-breadcrumb-2.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-breadcrumb-3.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-breadcrumb-4.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-breadcrumb-5.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-breadcrumb-6.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-breadcrumb-7.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-breadcrumb-8.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-breadcrumb-9.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/images/bg/bg-breadcrumb-10.jpg (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/style.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from https://connect.facebook.net/en_US/sdk.js)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/ (from https://connect.facebook.net/en_US/sdk.js)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/^([^:/? (from https://connect.facebook.net/en_US/sdk.js)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/restserver.php (from https://connect.facebook.net/en_US/sdk.js)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/css/img/vimeo-play.png (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/css/plugins/lightgallery.min.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/css/img/video-play.png (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/css/plugins/lightgallery.min.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/css/img/youtube-play.png (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/css/plugins/lightgallery.min.css)
+18:22:26	Error: 	"Forbidden" (403) at link https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/css/img/loading.gif (from https://d29u17ylf1ylz9.cloudfront.net/blazen-v1/css/plugins/lightgallery.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 55 seconds : 324 links scanned, 291 files written (28363922 bytes overall) [26458961 bytes received at 230077 bytes/sec], 2807009 bytes transferred using HTTP compression in 55 files, ratio 26%, 17.0 requests per connection
+(32 errors, 0 warnings, 0 messages)
