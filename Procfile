@@ -1,1 +1,1 @@
-web: gunicorn dtest-h.wsgi --log-file -
+web: gunicorn dtest.wsgi --log-file -
